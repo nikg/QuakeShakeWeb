@@ -1,0 +1,55 @@
+#status {
+  height: 20px;
+  /*  width:80px;*/
+  margin-bottom: 50px;
+  color: red;
+}
+
+#quakeShake {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slidertime, #sliderVa {
+  display: none;
+}
+
+#quick-shake {
+  text-align: center;
+}
+
+#quake-controls {
+  overflow: hidden;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+#quake-controls #zoom, #quake-controls #playback {
+  margin-top: 5px;
+  width: 300px;
+}
+#quake-controls .controls {
+  display: inline-block;
+  float: left;
+  margin-left: 6%;
+}
+#quake-controls .ui-state-default, #quake-controls .ui-widget-content .ui-state-default, #quake-controls .ui-widget-header .ui-state-default {
+  background: #27ae60 !important;
+  border: 1px solid #00102F !important;
+}
+#quake-controls .disabled {
+  opacity: 0.4;
+}
+#quake-controls .ui-widget-content {
+  background-image: url("/assets/slider_gradient.png") !important;
+}
+
+.slidertime {
+  margin-top: 5px;
+  float: left;
+}
+
+#sliderRight, #sliderMid {
+  margin-left: 100px;
+}
